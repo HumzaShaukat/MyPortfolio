@@ -110,8 +110,7 @@ html,body{
     line-height: 1;
   }
 
-  .about p{
-    text-align: left;
+  .about p {
     font-size: 15px;
     color: black;
   }
@@ -137,7 +136,6 @@ html,body{
     max-width: 100%;
   }
 
-
   .portfolio1 {
     display: flex;
     flex-wrap: wrap;
@@ -153,4 +151,14 @@ html,body{
     max-width: 450px;
     padding: 15px;
     z-index: -1;
+  }
+
+  @media screen and (max-width: 768px) {
+    header, body {
+      flex-direction: column;
+    }
+
+    nav {
+      size: 50%;
+    }
   }
