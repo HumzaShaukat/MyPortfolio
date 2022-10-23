@@ -110,8 +110,12 @@ html,body{
     line-height: 1;
   }
 
+  .about {
+    margin: 10%;
+  }
+
   .about p {
-    font-size: 15px;
+    font-size: 20px;
     color: black;
   }
 
@@ -156,9 +160,5 @@ html,body{
   @media screen and (max-width: 768px) {
     header, body {
       flex-direction: column;
-    }
-
-    nav {
-      size: 50%;
     }
   }
