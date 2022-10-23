@@ -161,4 +161,9 @@ html,body{
     header, body {
       flex-direction: column;
     }
+    
+    .portfolio1 img {
+      width: 85%;
+      height: 85%;
+    }
   }
