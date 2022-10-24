@@ -105,10 +105,11 @@ html,body{
 
   .about {
     margin: 10%;
-    text-align: center;
+    justify-content: center;
   }
 
   .about img {
+    display: flex;
     flex: 2 2 auto;
     height: 35vh;
     width: 35vh;
