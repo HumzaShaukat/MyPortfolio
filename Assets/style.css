@@ -66,7 +66,7 @@ html,body{
     width:100vw;
     height:100vh;
     position:absolute;
-    background: #1B2030 url(/Assets/Sunset.png);
+    background: #1B2030 url(https://raw.githubusercontent.com/HumzaShaukat/MyPortfolio/main/Assets/Sunset.png);
     background-size:100%;
     background-attachment:fixed;
     z-index: -2;
