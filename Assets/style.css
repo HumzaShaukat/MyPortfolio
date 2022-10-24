@@ -174,18 +174,3 @@ html,body{
       height: 85%;
     }
   }
-
-  @media screen and (max-width: 576px) {
-    .info {
-      text-align: left;
-    }
-
-    nav a {
-      flex: 2 2;
-    }
-    
-    .portfolio1 img {
-      width: 85%;
-      height: 85%;
-    }
-  }
