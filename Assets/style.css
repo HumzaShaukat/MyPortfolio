@@ -160,12 +160,9 @@ html,body{
   }
 
   @media screen and (max-width: 768px) {
-    header, body {
-      flex-direction: column;
-    }
-
-    .info {
-      text-align: left;
+    .header {
+      width: 50vw;
+      height: 50vh;
     }
 
     nav a {
@@ -179,10 +176,6 @@ html,body{
   }
 
   @media screen and (max-width: 576px) {
-    header, body {
-      flex-direction: column;
-    }
-
     .info {
       text-align: left;
     }
