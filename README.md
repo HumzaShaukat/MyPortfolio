@@ -24,4 +24,4 @@ N/A
 
 ## License
 
-MIT License
+An MIT License was used
