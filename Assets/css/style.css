@@ -1,5 +1,5 @@
 
-html,body{
+html{
     margin:0;
     height:120%;
     font-family:Arial, Helvetica, sans-serif;
@@ -161,12 +161,36 @@ html,body{
   }
 
   .card img {
+    min-height: 17vh;
     max-height: 30vh;
     max-width: 40vw;
     padding: 15px;
     z-index: -1;
   }
 
+  .experience {
+   flex: 2 2 auto;
+   margin-left: 2vw;
+   margin-right: 2vw;
+  }
+
+  footer {
+    display: flex;
+    margin: 0;
+    justify-items: left;
+    background-color: #1B2030;
+    height: 15vh;
+   }
+
+   #contact {
+    display: flex;
+    align-items: center;
+   }
+
+   .btn {
+    display: flex;
+    justify-items: center;
+   }
   /* When a larger smartphone opens this page, its static elements will flex to better fit the screen */
   @media screen and (max-width: 768px) {
     .header {
