@@ -210,3 +210,18 @@ html{
       max-width: 85vw;
     }
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: white 2px solid;
+    border-radius: 5px;
+    background-color: #1B2030;
+    color: white;
+    padding: 5px 5px 6px 6px;
+  }
