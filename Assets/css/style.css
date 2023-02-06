@@ -158,10 +158,7 @@ html{
   .portfolio1 img {
     max-width: 35vw;;
   }
-  .card {
-    position: relative; 
-  }
-
+  
   .card img {
     min-height: 17vh;
     max-height: 30vh;
